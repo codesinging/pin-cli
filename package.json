@@ -1,17 +1,27 @@
 {
-  "name": "pin-cli",
-  "version": "0.0.1",
-  "description": "",
-  "scripts": {
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/codesinging/pin-cli.git"
-  },
-  "author": "codesinging",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/codesinging/pin-cli/issues"
-  },
-  "homepage": "https://github.com/codesinging/pin-cli#readme"
+    "name": "pin-cli",
+    "version": "0.0.1",
+    "description": "",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/codesinging/pin-cli.git"
+    },
+    "author": "codesinging",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/codesinging/pin-cli/issues"
+    },
+    "homepage": "https://github.com/codesinging/pin-cli#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/cli": "^7.10.5",
+        "@babel/core": "^7.11.4",
+        "@babel/preset-env": "^7.11.0",
+        "gulp": "^4.0.2",
+        "gulp-babel": "^8.0.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-rename": "^2.0.0",
+        "gulp-uglify": "^3.0.2"
+    }
 }
